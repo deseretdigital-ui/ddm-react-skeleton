@@ -1,3 +1,4 @@
+var gulp = require('gulp');
 var config = require('../../webpack.config.js');
 var webpack = require('gulp-webpack');
 
