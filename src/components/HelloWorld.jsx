@@ -1,9 +1,11 @@
 var React = require('react/addons');
 
-module.exports = React.createClass({ displayName: 'HelloWorld',
+var HelloWorld = React.createClass({
   render: function () {
     return (
       <h1>Hello World!</h1>
     );
   }
 });
+
+module.exports = HelloWorld;
